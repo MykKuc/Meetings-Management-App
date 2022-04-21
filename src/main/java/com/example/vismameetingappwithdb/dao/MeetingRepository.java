@@ -11,8 +11,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.stream.Stream;
 
-//How to findAll in a column where there is specific word
-// Cia Hibernate problema del to Contains. @Param("")
 
 @Repository
 public interface MeetingRepository extends JpaRepository<Meeting,Integer>{
