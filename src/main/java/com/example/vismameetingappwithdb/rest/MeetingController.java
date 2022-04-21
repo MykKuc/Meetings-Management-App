@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//Reikia sukurti @PostMapping, kad butu galima papostinti meetinga.
-// Taip pat sukurti System.out.println(""), kad butu isprintinamas jeigu nera tam tikro type ar dar ko nors.
-// At @PostMapping it is important to pass @RequestBody parameter
 
 @RestController
 public class MeetingController {
